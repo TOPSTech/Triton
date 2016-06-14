@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8963811C1D10987900FB66C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8963811B1D10987900FB66C4 /* AppDelegate.swift */; };
+		8963811E1D10987900FB66C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8963811D1D10987900FB66C4 /* ViewController.swift */; };
+		896381211D10987900FB66C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8963811F1D10987900FB66C4 /* Main.storyboard */; };
+		896381231D10987900FB66C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896381221D10987900FB66C4 /* Assets.xcassets */; };
+		896381261D10987900FB66C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896381241D10987900FB66C4 /* LaunchScreen.storyboard */; };
+		896381311D10987900FB66C4 /* TritonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896381301D10987900FB66C4 /* TritonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8963812D1D10987900FB66C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896381101D10987900FB66C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896381171D10987900FB66C4;
+			remoteInfo = Triton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		896381181D10987900FB66C4 /* Triton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8963811B1D10987900FB66C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8963811D1D10987900FB66C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		896381201D10987900FB66C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		896381221D10987900FB66C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		896381251D10987900FB66C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		896381271D10987900FB66C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8963812C1D10987900FB66C4 /* TritonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TritonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		896381301D10987900FB66C4 /* TritonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TritonTests.swift; sourceTree = "<group>"; };
+		896381321D10987900FB66C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		896381151D10987900FB66C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896381291D10987900FB66C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8963810F1D10987900FB66C4 = {
+			isa = PBXGroup;
+			children = (
+				8963811A1D10987900FB66C4 /* Triton */,
+				8963812F1D10987900FB66C4 /* TritonTests */,
+				896381191D10987900FB66C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		896381191D10987900FB66C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				896381181D10987900FB66C4 /* Triton.app */,
+				8963812C1D10987900FB66C4 /* TritonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8963811A1D10987900FB66C4 /* Triton */ = {
+			isa = PBXGroup;
+			children = (
+				8963811B1D10987900FB66C4 /* AppDelegate.swift */,
+				8963811D1D10987900FB66C4 /* ViewController.swift */,
+				8963811F1D10987900FB66C4 /* Main.storyboard */,
+				896381221D10987900FB66C4 /* Assets.xcassets */,
+				896381241D10987900FB66C4 /* LaunchScreen.storyboard */,
+				896381271D10987900FB66C4 /* Info.plist */,
+			);
+			path = Triton;
+			sourceTree = "<group>";
+		};
+		8963812F1D10987900FB66C4 /* TritonTests */ = {
+			isa = PBXGroup;
+			children = (
+				896381301D10987900FB66C4 /* TritonTests.swift */,
+				896381321D10987900FB66C4 /* Info.plist */,
+			);
+			path = TritonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		896381171D10987900FB66C4 /* Triton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896381351D10987900FB66C4 /* Build configuration list for PBXNativeTarget "Triton" */;
+			buildPhases = (
+				896381141D10987900FB66C4 /* Sources */,
+				896381151D10987900FB66C4 /* Frameworks */,
+				896381161D10987900FB66C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triton;
+			productName = Triton;
+			productReference = 896381181D10987900FB66C4 /* Triton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8963812B1D10987900FB66C4 /* TritonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896381381D10987900FB66C4 /* Build configuration list for PBXNativeTarget "TritonTests" */;
+			buildPhases = (
+				896381281D10987900FB66C4 /* Sources */,
+				896381291D10987900FB66C4 /* Frameworks */,
+				8963812A1D10987900FB66C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8963812E1D10987900FB66C4 /* PBXTargetDependency */,
+			);
+			name = TritonTests;
+			productName = TritonTests;
+			productReference = 8963812C1D10987900FB66C4 /* TritonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		896381101D10987900FB66C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Rachel Brindle";
+				TargetAttributes = {
+					896381171D10987900FB66C4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9D456YCUH2;
+						DevelopmentTeamName = "Rachel Brindle";
+						ProvisioningStyle = Automatic;
+					};
+					8963812B1D10987900FB66C4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9D456YCUH2;
+						DevelopmentTeamName = "Rachel Brindle";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 896381171D10987900FB66C4;
+					};
+				};
+			};
+			buildConfigurationList = 896381131D10987900FB66C4 /* Build configuration list for PBXProject "Triton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8963810F1D10987900FB66C4;
+			productRefGroup = 896381191D10987900FB66C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896381171D10987900FB66C4 /* Triton */,
+				8963812B1D10987900FB66C4 /* TritonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		896381161D10987900FB66C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896381261D10987900FB66C4 /* LaunchScreen.storyboard in Resources */,
+				896381231D10987900FB66C4 /* Assets.xcassets in Resources */,
+				896381211D10987900FB66C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8963812A1D10987900FB66C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		896381141D10987900FB66C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8963811E1D10987900FB66C4 /* ViewController.swift in Sources */,
+				8963811C1D10987900FB66C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896381281D10987900FB66C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896381311D10987900FB66C4 /* TritonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8963812E1D10987900FB66C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 896381171D10987900FB66C4 /* Triton */;
+			targetProxy = 8963812D1D10987900FB66C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8963811F1D10987900FB66C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896381201D10987900FB66C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		896381241D10987900FB66C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896381251D10987900FB66C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		896381331D10987900FB66C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		896381341D10987900FB66C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		896381361D10987900FB66C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Triton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.Triton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		896381371D10987900FB66C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Triton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.Triton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		896381391D10987900FB66C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TritonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.TritonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triton.app/Triton";
+			};
+			name = Debug;
+		};
+		8963813A1D10987900FB66C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TritonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.TritonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triton.app/Triton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		896381131D10987900FB66C4 /* Build configuration list for PBXProject "Triton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896381331D10987900FB66C4 /* Debug */,
+				896381341D10987900FB66C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896381351D10987900FB66C4 /* Build configuration list for PBXNativeTarget "Triton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896381361D10987900FB66C4 /* Debug */,
+				896381371D10987900FB66C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		896381381D10987900FB66C4 /* Build configuration list for PBXNativeTarget "TritonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896381391D10987900FB66C4 /* Debug */,
+				8963813A1D10987900FB66C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 896381101D10987900FB66C4 /* Project object */;
+}
