@@ -9,10 +9,26 @@
 /* Begin PBXBuildFile section */
 		8963811C1D10987900FB66C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8963811B1D10987900FB66C4 /* AppDelegate.swift */; };
 		8963811E1D10987900FB66C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8963811D1D10987900FB66C4 /* ViewController.swift */; };
-		896381211D10987900FB66C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8963811F1D10987900FB66C4 /* Main.storyboard */; };
 		896381231D10987900FB66C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896381221D10987900FB66C4 /* Assets.xcassets */; };
 		896381261D10987900FB66C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896381241D10987900FB66C4 /* LaunchScreen.storyboard */; };
 		896381311D10987900FB66C4 /* TritonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896381301D10987900FB66C4 /* TritonTests.swift */; };
+		896381421D1098B600FB66C4 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896381411D1098B600FB66C4 /* IntentHandler.swift */; };
+		8963814B1D1098B600FB66C4 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8963814A1D1098B600FB66C4 /* IntentsUI.framework */; };
+		8963814E1D1098B600FB66C4 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8963814D1D1098B600FB66C4 /* IntentViewController.swift */; };
+		896381511D1098B600FB66C4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8963814F1D1098B600FB66C4 /* MainInterface.storyboard */; };
+		896381551D1098B600FB66C4 /* TritonSiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 896381481D1098B600FB66C4 /* TritonSiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		896381581D1098B600FB66C4 /* TritonSiri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8963813F1D1098B500FB66C4 /* TritonSiri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89A828151D123A360073AD6F /* TritonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A828141D123A360073AD6F /* TritonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A8281C1D123A370073AD6F /* TritonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A828121D123A360073AD6F /* TritonKit.framework */; };
+		89A828231D123A370073AD6F /* TritonKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A828221D123A370073AD6F /* TritonKitTests.swift */; };
+		89A828271D123A370073AD6F /* TritonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A828121D123A360073AD6F /* TritonKit.framework */; };
+		89A828281D123A370073AD6F /* TritonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89A828121D123A360073AD6F /* TritonKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89A828311D123A600073AD6F /* CarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A828301D123A600073AD6F /* CarRepository.swift */; };
+		89A828331D123B2D0073AD6F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A828321D123B2D0073AD6F /* Car.swift */; };
+		89A828351D123DC00073AD6F /* CarLockUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A828341D123DC00073AD6F /* CarLockUseCase.swift */; };
+		89A828371D123EA30073AD6F /* TritonKitModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A828361D123EA30073AD6F /* TritonKitModule.swift */; };
+		89ED12B11D1311C50072C66A /* TritonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A828121D123A360073AD6F /* TritonKit.framework */; };
+		89ED12B31D1314A60072C66A /* SiriCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED12B21D1314A60072C66A /* SiriCommands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +39,98 @@
 			remoteGlobalIDString = 896381171D10987900FB66C4;
 			remoteInfo = Triton;
 		};
+		896381531D1098B600FB66C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896381101D10987900FB66C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896381471D1098B600FB66C4;
+			remoteInfo = TritonSiriUI;
+		};
+		896381561D1098B600FB66C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896381101D10987900FB66C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8963813E1D1098B500FB66C4;
+			remoteInfo = TritonSiri;
+		};
+		89A8281D1D123A370073AD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896381101D10987900FB66C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A828111D123A360073AD6F;
+			remoteInfo = TritonKit;
+		};
+		89A8281F1D123A370073AD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896381101D10987900FB66C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896381171D10987900FB66C4;
+			remoteInfo = Triton;
+		};
+		89A828251D123A370073AD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896381101D10987900FB66C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A828111D123A360073AD6F;
+			remoteInfo = TritonKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8963815F1D1098B600FB66C4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				896381551D1098B600FB66C4 /* TritonSiriUI.appex in Embed App Extensions */,
+				896381581D1098B600FB66C4 /* TritonSiri.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A8282C1D123A370073AD6F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				89A828281D123A370073AD6F /* TritonKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		896381181D10987900FB66C4 /* Triton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8963811B1D10987900FB66C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8963811D1D10987900FB66C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		896381201D10987900FB66C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		896381221D10987900FB66C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		896381251D10987900FB66C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		896381271D10987900FB66C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8963812C1D10987900FB66C4 /* TritonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TritonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		896381301D10987900FB66C4 /* TritonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TritonTests.swift; sourceTree = "<group>"; };
 		896381321D10987900FB66C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8963813F1D1098B500FB66C4 /* TritonSiri.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TritonSiri.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		896381411D1098B600FB66C4 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		896381431D1098B600FB66C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896381481D1098B600FB66C4 /* TritonSiriUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TritonSiriUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8963814A1D1098B600FB66C4 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		8963814D1D1098B600FB66C4 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		896381501D1098B600FB66C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		896381521D1098B600FB66C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A828121D123A360073AD6F /* TritonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TritonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A828141D123A360073AD6F /* TritonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TritonKit.h; sourceTree = "<group>"; };
+		89A828161D123A360073AD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A8281B1D123A370073AD6F /* TritonKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TritonKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A828221D123A370073AD6F /* TritonKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TritonKitTests.swift; sourceTree = "<group>"; };
+		89A828241D123A370073AD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A828301D123A600073AD6F /* CarRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarRepository.swift; sourceTree = "<group>"; };
+		89A828321D123B2D0073AD6F /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		89A828341D123DC00073AD6F /* CarLockUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarLockUseCase.swift; sourceTree = "<group>"; };
+		89A828361D123EA30073AD6F /* TritonKitModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TritonKitModule.swift; sourceTree = "<group>"; };
+		89ED12B21D1314A60072C66A /* SiriCommands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiriCommands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A828271D123A370073AD6F /* TritonKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +146,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8963813C1D1098B500FB66C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ED12B11D1311C50072C66A /* TritonKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896381451D1098B600FB66C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8963814B1D1098B600FB66C4 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A8280E1D123A360073AD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A828181D123A370073AD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A8281C1D123A370073AD6F /* TritonKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +188,11 @@
 			children = (
 				8963811A1D10987900FB66C4 /* Triton */,
 				8963812F1D10987900FB66C4 /* TritonTests */,
+				896381401D1098B600FB66C4 /* TritonSiri */,
+				8963814C1D1098B600FB66C4 /* TritonSiriUI */,
+				89A828131D123A360073AD6F /* TritonKit */,
+				89A828211D123A370073AD6F /* TritonKitTests */,
+				896381491D1098B600FB66C4 /* Frameworks */,
 				896381191D10987900FB66C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +202,10 @@
 			children = (
 				896381181D10987900FB66C4 /* Triton.app */,
 				8963812C1D10987900FB66C4 /* TritonTests.xctest */,
+				8963813F1D1098B500FB66C4 /* TritonSiri.appex */,
+				896381481D1098B600FB66C4 /* TritonSiriUI.appex */,
+				89A828121D123A360073AD6F /* TritonKit.framework */,
+				89A8281B1D123A370073AD6F /* TritonKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +215,6 @@
 			children = (
 				8963811B1D10987900FB66C4 /* AppDelegate.swift */,
 				8963811D1D10987900FB66C4 /* ViewController.swift */,
-				8963811F1D10987900FB66C4 /* Main.storyboard */,
 				896381221D10987900FB66C4 /* Assets.xcassets */,
 				896381241D10987900FB66C4 /* LaunchScreen.storyboard */,
 				896381271D10987900FB66C4 /* Info.plist */,
@@ -96,7 +231,68 @@
 			path = TritonTests;
 			sourceTree = "<group>";
 		};
+		896381401D1098B600FB66C4 /* TritonSiri */ = {
+			isa = PBXGroup;
+			children = (
+				896381411D1098B600FB66C4 /* IntentHandler.swift */,
+				89ED12B21D1314A60072C66A /* SiriCommands.swift */,
+				896381431D1098B600FB66C4 /* Info.plist */,
+			);
+			path = TritonSiri;
+			sourceTree = "<group>";
+		};
+		896381491D1098B600FB66C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8963814A1D1098B600FB66C4 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8963814C1D1098B600FB66C4 /* TritonSiriUI */ = {
+			isa = PBXGroup;
+			children = (
+				8963814D1D1098B600FB66C4 /* IntentViewController.swift */,
+				8963814F1D1098B600FB66C4 /* MainInterface.storyboard */,
+				896381521D1098B600FB66C4 /* Info.plist */,
+			);
+			path = TritonSiriUI;
+			sourceTree = "<group>";
+		};
+		89A828131D123A360073AD6F /* TritonKit */ = {
+			isa = PBXGroup;
+			children = (
+				89A828141D123A360073AD6F /* TritonKit.h */,
+				89A828161D123A360073AD6F /* Info.plist */,
+				89A828361D123EA30073AD6F /* TritonKitModule.swift */,
+				89A828341D123DC00073AD6F /* CarLockUseCase.swift */,
+				89A828301D123A600073AD6F /* CarRepository.swift */,
+				89A828321D123B2D0073AD6F /* Car.swift */,
+			);
+			path = TritonKit;
+			sourceTree = "<group>";
+		};
+		89A828211D123A370073AD6F /* TritonKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				89A828221D123A370073AD6F /* TritonKitTests.swift */,
+				89A828241D123A370073AD6F /* Info.plist */,
+			);
+			path = TritonKitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89A8280F1D123A360073AD6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A828151D123A360073AD6F /* TritonKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		896381171D10987900FB66C4 /* Triton */ = {
@@ -106,10 +302,15 @@
 				896381141D10987900FB66C4 /* Sources */,
 				896381151D10987900FB66C4 /* Frameworks */,
 				896381161D10987900FB66C4 /* Resources */,
+				8963815F1D1098B600FB66C4 /* Embed App Extensions */,
+				89A8282C1D123A370073AD6F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				896381541D1098B600FB66C4 /* PBXTargetDependency */,
+				896381571D1098B600FB66C4 /* PBXTargetDependency */,
+				89A828261D123A370073AD6F /* PBXTargetDependency */,
 			);
 			name = Triton;
 			productName = Triton;
@@ -132,6 +333,77 @@
 			name = TritonTests;
 			productName = TritonTests;
 			productReference = 8963812C1D10987900FB66C4 /* TritonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8963813E1D1098B500FB66C4 /* TritonSiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8963815C1D1098B600FB66C4 /* Build configuration list for PBXNativeTarget "TritonSiri" */;
+			buildPhases = (
+				8963813B1D1098B500FB66C4 /* Sources */,
+				8963813C1D1098B500FB66C4 /* Frameworks */,
+				8963813D1D1098B500FB66C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TritonSiri;
+			productName = TritonSiri;
+			productReference = 8963813F1D1098B500FB66C4 /* TritonSiri.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		896381471D1098B600FB66C4 /* TritonSiriUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896381591D1098B600FB66C4 /* Build configuration list for PBXNativeTarget "TritonSiriUI" */;
+			buildPhases = (
+				896381441D1098B600FB66C4 /* Sources */,
+				896381451D1098B600FB66C4 /* Frameworks */,
+				896381461D1098B600FB66C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TritonSiriUI;
+			productName = TritonSiriUI;
+			productReference = 896381481D1098B600FB66C4 /* TritonSiriUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		89A828111D123A360073AD6F /* TritonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A828291D123A370073AD6F /* Build configuration list for PBXNativeTarget "TritonKit" */;
+			buildPhases = (
+				89A8280D1D123A360073AD6F /* Sources */,
+				89A8280E1D123A360073AD6F /* Frameworks */,
+				89A8280F1D123A360073AD6F /* Headers */,
+				89A828101D123A360073AD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TritonKit;
+			productName = TritonKit;
+			productReference = 89A828121D123A360073AD6F /* TritonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89A8281A1D123A370073AD6F /* TritonKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A8282D1D123A370073AD6F /* Build configuration list for PBXNativeTarget "TritonKitTests" */;
+			buildPhases = (
+				89A828171D123A370073AD6F /* Sources */,
+				89A828181D123A370073AD6F /* Frameworks */,
+				89A828191D123A370073AD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A8281E1D123A370073AD6F /* PBXTargetDependency */,
+				89A828201D123A370073AD6F /* PBXTargetDependency */,
+			);
+			name = TritonKitTests;
+			productName = TritonKitTests;
+			productReference = 89A8281B1D123A370073AD6F /* TritonKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -157,6 +429,32 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 896381171D10987900FB66C4;
 					};
+					8963813E1D1098B500FB66C4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9D456YCUH2;
+						DevelopmentTeamName = "Rachel Brindle";
+						ProvisioningStyle = Automatic;
+					};
+					896381471D1098B600FB66C4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9D456YCUH2;
+						DevelopmentTeamName = "Rachel Brindle";
+						ProvisioningStyle = Automatic;
+					};
+					89A828111D123A360073AD6F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9D456YCUH2;
+						DevelopmentTeamName = "Rachel Brindle";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					89A8281A1D123A370073AD6F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9D456YCUH2;
+						DevelopmentTeamName = "Rachel Brindle";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 896381171D10987900FB66C4;
+					};
 				};
 			};
 			buildConfigurationList = 896381131D10987900FB66C4 /* Build configuration list for PBXProject "Triton" */;
@@ -174,6 +472,10 @@
 			targets = (
 				896381171D10987900FB66C4 /* Triton */,
 				8963812B1D10987900FB66C4 /* TritonTests */,
+				8963813E1D1098B500FB66C4 /* TritonSiri */,
+				896381471D1098B600FB66C4 /* TritonSiriUI */,
+				89A828111D123A360073AD6F /* TritonKit */,
+				89A8281A1D123A370073AD6F /* TritonKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,11 +487,39 @@
 			files = (
 				896381261D10987900FB66C4 /* LaunchScreen.storyboard in Resources */,
 				896381231D10987900FB66C4 /* Assets.xcassets in Resources */,
-				896381211D10987900FB66C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8963812A1D10987900FB66C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8963813D1D1098B500FB66C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896381461D1098B600FB66C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896381511D1098B600FB66C4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A828101D123A360073AD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A828191D123A370073AD6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,6 +546,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8963813B1D1098B500FB66C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ED12B31D1314A60072C66A /* SiriCommands.swift in Sources */,
+				896381421D1098B600FB66C4 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896381441D1098B600FB66C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8963814E1D1098B600FB66C4 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A8280D1D123A360073AD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A828351D123DC00073AD6F /* CarLockUseCase.swift in Sources */,
+				89A828331D123B2D0073AD6F /* Car.swift in Sources */,
+				89A828371D123EA30073AD6F /* TritonKitModule.swift in Sources */,
+				89A828311D123A600073AD6F /* CarRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A828171D123A370073AD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A828231D123A370073AD6F /* TritonKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -224,23 +590,48 @@
 			target = 896381171D10987900FB66C4 /* Triton */;
 			targetProxy = 8963812D1D10987900FB66C4 /* PBXContainerItemProxy */;
 		};
+		896381541D1098B600FB66C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 896381471D1098B600FB66C4 /* TritonSiriUI */;
+			targetProxy = 896381531D1098B600FB66C4 /* PBXContainerItemProxy */;
+		};
+		896381571D1098B600FB66C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8963813E1D1098B500FB66C4 /* TritonSiri */;
+			targetProxy = 896381561D1098B600FB66C4 /* PBXContainerItemProxy */;
+		};
+		89A8281E1D123A370073AD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A828111D123A360073AD6F /* TritonKit */;
+			targetProxy = 89A8281D1D123A370073AD6F /* PBXContainerItemProxy */;
+		};
+		89A828201D123A370073AD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 896381171D10987900FB66C4 /* Triton */;
+			targetProxy = 89A8281F1D123A370073AD6F /* PBXContainerItemProxy */;
+		};
+		89A828261D123A370073AD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A828111D123A360073AD6F /* TritonKit */;
+			targetProxy = 89A828251D123A370073AD6F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8963811F1D10987900FB66C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				896381201D10987900FB66C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		896381241D10987900FB66C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				896381251D10987900FB66C4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8963814F1D1098B600FB66C4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896381501D1098B600FB66C4 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,6 +729,7 @@
 		896381361D10987900FB66C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Triton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -350,6 +742,7 @@
 		896381371D10987900FB66C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Triton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -385,6 +778,121 @@
 			};
 			name = Release;
 		};
+		8963815A1D1098B600FB66C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TritonSiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.Triton.TritonSiriUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8963815B1D1098B600FB66C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TritonSiriUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.Triton.TritonSiriUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8963815D1D1098B600FB66C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TritonSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.Triton.TritonSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8963815E1D1098B600FB66C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TritonSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.Triton.TritonSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		89A8282A1D123A370073AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TritonKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.TritonKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89A8282B1D123A370073AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TritonKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.TritonKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89A8282E1D123A370073AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TritonKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.TritonKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triton.app/Triton";
+			};
+			name = Debug;
+		};
+		89A8282F1D123A370073AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TritonKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelbrindle.TritonKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triton.app/Triton";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -404,6 +912,7 @@
 				896381371D10987900FB66C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		896381381D10987900FB66C4 /* Build configuration list for PBXNativeTarget "TritonTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +921,43 @@
 				8963813A1D10987900FB66C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896381591D1098B600FB66C4 /* Build configuration list for PBXNativeTarget "TritonSiriUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8963815A1D1098B600FB66C4 /* Debug */,
+				8963815B1D1098B600FB66C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8963815C1D1098B600FB66C4 /* Build configuration list for PBXNativeTarget "TritonSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8963815D1D1098B600FB66C4 /* Debug */,
+				8963815E1D1098B600FB66C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A828291D123A370073AD6F /* Build configuration list for PBXNativeTarget "TritonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A8282A1D123A370073AD6F /* Debug */,
+				89A8282B1D123A370073AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A8282D1D123A370073AD6F /* Build configuration list for PBXNativeTarget "TritonKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A8282E1D123A370073AD6F /* Debug */,
+				89A8282F1D123A370073AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

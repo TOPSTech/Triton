@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Triton.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "89A8281A1D123A370073AD6F"
+               BuildableName = "TritonKitTests.xctest"
+               BlueprintName = "TritonKitTests"
+               ReferencedContainer = "container:Triton.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
